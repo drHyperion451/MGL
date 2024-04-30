@@ -21,7 +21,7 @@ cd ../..
 cd glslang
 mkdir build
 cd build
-cmake ..
+cmake .. -DENABLE_OPT=0
 make -j 4
 cd ../..
 cd glfw

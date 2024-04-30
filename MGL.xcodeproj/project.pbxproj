@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF2BFF82BE18AB700C697EB /* glcorearb.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF2BFF72BE18AB700C697EB /* glcorearb.h */; };
 		FF33414C278BDD2000FDBD91 /* Fixed_ResourceLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = FF33414B278BDD2000FDBD91 /* Fixed_ResourceLimits.h */; };
 		FF4810152772B23400BBF7C7 /* libMGL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA83000276F97DE003F1EA0 /* libMGL.dylib */; };
 		FF48106F2772B48900BBF7C7 /* glfw3.h in Headers */ = {isa = PBXBuildFile; fileRef = FF48102F2772B48900BBF7C7 /* glfw3.h */; };
@@ -80,7 +81,6 @@
 		FF7B7AD327728C3200C2028F /* MGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC327728C3100C2028F /* MGLContext.h */; };
 		FF7B7AD427728C3200C2028F /* mgl.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC427728C3100C2028F /* mgl.h */; };
 		FF7B7AD527728C3200C2028F /* pixel_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC527728C3100C2028F /* pixel_utils.h */; };
-		FF7B7AD627728C3200C2028F /* glcorearb.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC627728C3100C2028F /* glcorearb.h */; };
 		FF7B7AD727728C3200C2028F /* glm_params.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC727728C3100C2028F /* glm_params.h */; };
 		FF7B7AD827728C3200C2028F /* glm_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7B7AC827728C3100C2028F /* glm_limits.h */; };
 		FF7B7AF7277290EB00C2028F /* gl_core.c in Sources */ = {isa = PBXBuildFile; fileRef = FF7B7AF6277290EB00C2028F /* gl_core.c */; };
@@ -117,6 +117,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4AF2C0072BE1931600C697EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA82FF8276F97DE003F1EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8F918A277E312E00A1E546;
+			remoteInfo = "SPIRV-Headers";
+		};
+		4AF2C00D2BE1933600C697EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA82FF8276F97DE003F1EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8F918A277E312E00A1E546;
+			remoteInfo = "SPIRV-Headers";
+		};
 		FF4811202772B77C00BBF7C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFA82FF8276F97DE003F1EA0 /* Project object */;
@@ -200,6 +214,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4AF2BFEE2BE1862900C697EB /* BUILD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUILD.md; sourceTree = "<group>"; };
+		4AF2BFF72BE18AB700C697EB /* glcorearb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glcorearb.h; path = GL/glcorearb.h; sourceTree = "<group>"; };
 		DFB50A8928ADD0020084D12B /* libspirv-cross-hlsl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspirv-cross-hlsl.a"; path = "external/SPIRV-Cross/build/libspirv-cross-hlsl.a"; sourceTree = "<group>"; };
 		DFB50A8A28ADD0020084D12B /* libspirv-cross-util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspirv-cross-util.a"; path = "external/SPIRV-Cross/build/libspirv-cross-util.a"; sourceTree = "<group>"; };
 		DFB50A8B28ADD0030084D12B /* libspirv-cross-core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspirv-cross-core.a"; path = "external/SPIRV-Cross/build/libspirv-cross-core.a"; sourceTree = "<group>"; };
@@ -242,11 +258,6 @@
 		FF4811712776963E00BBF7C7 /* tex_param.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tex_param.c; sourceTree = "<group>"; };
 		FF7B77A32771054F00C2028F /* ezxml.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ezxml.c; sourceTree = "<group>"; };
 		FF7B77A42771054F00C2028F /* ezxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ezxml.h; sourceTree = "<group>"; };
-		FF7B77E827710FE100C2028F /* wgl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgl.h; sourceTree = "<group>"; };
-		FF7B77E927710FE100C2028F /* wglext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglext.h; sourceTree = "<group>"; };
-		FF7B77EA27710FE100C2028F /* glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
-		FF7B77EB27710FE100C2028F /* glxext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxext.h; sourceTree = "<group>"; };
-		FF7B77EC27710FE100C2028F /* glcorearb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glcorearb.h; sourceTree = "<group>"; };
 		FF7B784827714BE700C2028F /* spec_parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spec_parser; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7B784A27714BE700C2028F /* spec_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spec_parser.c; sourceTree = "<group>"; };
 		FF7B787B27717EDB00C2028F /* libSPIRV-Tools-shared.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSPIRV-Tools-shared.dylib"; path = "../../../../usr/local/lib/libSPIRV-Tools-shared.dylib"; sourceTree = "<group>"; };
@@ -313,7 +324,6 @@
 		FF7B7AC327728C3100C2028F /* MGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLContext.h; sourceTree = "<group>"; };
 		FF7B7AC427728C3100C2028F /* mgl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mgl.h; sourceTree = "<group>"; };
 		FF7B7AC527728C3100C2028F /* pixel_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixel_utils.h; sourceTree = "<group>"; };
-		FF7B7AC627728C3100C2028F /* glcorearb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glcorearb.h; sourceTree = "<group>"; };
 		FF7B7AC727728C3100C2028F /* glm_params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm_params.h; sourceTree = "<group>"; };
 		FF7B7AC827728C3100C2028F /* glm_limits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm_limits.h; sourceTree = "<group>"; };
 		FF7B7AF6277290EB00C2028F /* gl_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gl_core.c; sourceTree = "<group>"; };
@@ -468,19 +478,6 @@
 			path = external/glfw/src;
 			sourceTree = SOURCE_ROOT;
 		};
-		FF7B77E727710FE100C2028F /* GL */ = {
-			isa = PBXGroup;
-			children = (
-				FF7B77E827710FE100C2028F /* wgl.h */,
-				FF7B77E927710FE100C2028F /* wglext.h */,
-				FF7B77EA27710FE100C2028F /* glext.h */,
-				FF7B77EB27710FE100C2028F /* glxext.h */,
-				FF7B77EC27710FE100C2028F /* glcorearb.h */,
-			);
-			name = GL;
-			path = "external/OpenGL-Registry/api/GL";
-			sourceTree = "<group>";
-		};
 		FF7B784927714BE700C2028F /* spec_parser */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,11 +532,11 @@
 				FF7B7ABD27728C3100C2028F /* shaders.h */,
 				FF7B7ABE27728C3100C2028F /* glm_context.h */,
 				FF7B7ABF27728C3100C2028F /* glm_dispatch.h */,
+				4AF2BFF72BE18AB700C697EB /* glcorearb.h */,
 				FF7B7AC027728C3100C2028F /* hash_table.h */,
 				FF7B7AC227728C3100C2028F /* enums.h */,
 				FF7B7AC427728C3100C2028F /* mgl.h */,
 				FF7B7AC527728C3100C2028F /* pixel_utils.h */,
-				FF7B7AC627728C3100C2028F /* glcorearb.h */,
 				FF7B7AC727728C3100C2028F /* glm_params.h */,
 				FF7B7AC827728C3100C2028F /* glm_limits.h */,
 				FF7B7AC327728C3100C2028F /* MGLContext.h */,
@@ -551,9 +548,9 @@
 		FFA82FF7276F97DE003F1EA0 = {
 			isa = PBXGroup;
 			children = (
+				4AF2BFEE2BE1862900C697EB /* BUILD.md */,
 				FF86AEA92794DD0A00C51A88 /* README.md */,
 				FF48102C2772B45A00BBF7C7 /* GLFW */,
-				FF7B77E727710FE100C2028F /* GL */,
 				FF7B784927714BE700C2028F /* spec_parser */,
 				FFA8302D276F9CE4003F1EA0 /* enum_parser */,
 				FFA83035276F9CEF003F1EA0 /* MGL */,
@@ -685,9 +682,9 @@
 				FF7B7ACF27728C3100C2028F /* glm_dispatch.h in Headers */,
 				FF7B7AD827728C3200C2028F /* glm_limits.h in Headers */,
 				FF7B7AD527728C3200C2028F /* pixel_utils.h in Headers */,
+				4AF2BFF82BE18AB700C697EB /* glcorearb.h in Headers */,
 				FF7B7AD427728C3200C2028F /* mgl.h in Headers */,
 				FF7B7AD727728C3200C2028F /* glm_params.h in Headers */,
-				FF7B7AD627728C3200C2028F /* glcorearb.h in Headers */,
 				FF7B7AD327728C3200C2028F /* MGLContext.h in Headers */,
 				FF7B7ACA27728C3100C2028F /* utils.h in Headers */,
 				FF7B7ACC27728C3100C2028F /* MGLRenderer.h in Headers */,
@@ -702,6 +699,36 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXLegacyTarget section */
+		4AF2C0052BE1931600C697EB /* clone_external */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(SRCROOT)/external/clone_external.sh";
+			buildConfigurationList = 4AF2C0082BE1931600C697EB /* Build configuration list for PBXLegacyTarget "clone_external" */;
+			buildPhases = (
+			);
+			buildToolPath = sh;
+			buildWorkingDirectory = "$(SRCROOT)/external/";
+			dependencies = (
+				4AF2C0062BE1931600C697EB /* PBXTargetDependency */,
+			);
+			name = clone_external;
+			passBuildSettingsInEnvironment = 1;
+			productName = "SPIRV-Cross";
+		};
+		4AF2C00B2BE1933600C697EB /* build_external */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(SRCROOT)/external/build_external.sh";
+			buildConfigurationList = 4AF2C00E2BE1933600C697EB /* Build configuration list for PBXLegacyTarget "build_external" */;
+			buildPhases = (
+			);
+			buildToolPath = sh;
+			buildWorkingDirectory = "$(SRCROOT)/external/";
+			dependencies = (
+				4AF2C00C2BE1933600C697EB /* PBXTargetDependency */,
+			);
+			name = build_external;
+			passBuildSettingsInEnvironment = 1;
+			productName = "SPIRV-Cross";
+		};
 		FF8F9165277E309800A1E546 /* SPIRV-Tools */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(SRCROOT)/external/xcbuild-SPIRV-Tools.sh";
@@ -889,6 +916,8 @@
 				FF8F918A277E312E00A1E546 /* SPIRV-Headers */,
 				FF8F9165277E309800A1E546 /* SPIRV-Tools */,
 				FF8F9173277E30D500A1E546 /* SPIRV-Cross */,
+				4AF2C0052BE1931600C697EB /* clone_external */,
+				4AF2C00B2BE1933600C697EB /* build_external */,
 				FFA82FFF276F97DE003F1EA0 /* MGL */,
 				FF48101D2772B44D00BBF7C7 /* GLFW */,
 				FFA83043276F9EBE003F1EA0 /* test_mgl_glfw */,
@@ -990,6 +1019,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4AF2C0062BE1931600C697EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8F918A277E312E00A1E546 /* SPIRV-Headers */;
+			targetProxy = 4AF2C0072BE1931600C697EB /* PBXContainerItemProxy */;
+		};
+		4AF2C00C2BE1933600C697EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8F918A277E312E00A1E546 /* SPIRV-Headers */;
+			targetProxy = 4AF2C00D2BE1933600C697EB /* PBXContainerItemProxy */;
+		};
 		FF4811212772B77C00BBF7C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FF48101D2772B44D00BBF7C7 /* GLFW */;
@@ -1028,6 +1067,64 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4AF2C0092BE1931600C697EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A54HA75PNX;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AF2C00A2BE1931600C697EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A54HA75PNX;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AF2C00F2BE1933600C697EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A54HA75PNX;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AF2C0102BE1933600C697EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A54HA75PNX;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FF4810202772B44D00BBF7C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1481,6 +1578,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4AF2C0082BE1931600C697EB /* Build configuration list for PBXLegacyTarget "clone_external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF2C0092BE1931600C697EB /* Debug */,
+				4AF2C00A2BE1931600C697EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF2C00E2BE1933600C697EB /* Build configuration list for PBXLegacyTarget "build_external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF2C00F2BE1933600C697EB /* Debug */,
+				4AF2C0102BE1933600C697EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FF48101F2772B44D00BBF7C7 /* Build configuration list for PBXNativeTarget "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,8 +7,12 @@ external/SPIRV-Headers/
 external/SPIRV-Tools/
 external/ezxml/
 external/glslang/
+external/glfw
 *.DS_Store
 /SPIRV-Headers
 /SPIRV-Cross
 /MGL.gputrace
 /Info.plist
+
+*.xcworkspace/
+xcuserdata/
